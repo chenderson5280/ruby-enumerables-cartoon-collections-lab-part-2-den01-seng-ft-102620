@@ -30,7 +30,7 @@ def find_valid_calls(planeteer_calls)
 
   #result = ""
 planeteer_calls.each do |name|
-valid_calls.select do |name2|
+valid_calls.find do |name2|
        name == name2
 
 
