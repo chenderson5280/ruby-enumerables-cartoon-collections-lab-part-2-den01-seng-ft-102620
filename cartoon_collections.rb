@@ -30,11 +30,11 @@ def find_valid_calls(planeteer_calls)
 
   #result = ""
 planeteer_calls.each do |name|
-valid_calls.select.first do |name2|
-      if name == name2
+valid_calls.select do |name2|
+       name == name2
 
-  end
-p name[0]
+
+# name[0]
 end
 #   result
 #return nil if result.empty?
